@@ -1,0 +1,23 @@
+{
+  "name": "raspcam",
+  "version": "1.0.0",
+  "description": "Super projet OMYBOT ! pour récupérer les couleurs du patern avec une camera",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/boutetp/raspcam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/boutetp/raspcam#readme",
+  "dependencies": {
+    "color-convert": "^1.9.1",
+    "jimp": "^0.2.28",
+    "pi-camera": "^1.1.0",
+    "raspicam": "^0.2.14",
+    "serialport": "^6.2.0"
+  }
+}
